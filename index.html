@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shanmitha Balakrishnan</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaqueries.css">
+</head>
+
+<body>
+    <nav id="nav-bar">
+        <div class="logo">Shanmitha Balakrishnan!</div>
+        <div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <nav id="hamburger-nav">
+        <div class="logo">Shanmitha Balakrishnan!</div>
+        <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="menu-links">
+                <li><a href="#about" onclick="toggleMenu()">About</a></li>
+                <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+                <li><a href="#skills" onclick="toggleMenu()">Skills</a></li>
+                <li><a href="#achivements" onclick="toggleMenu()">Achivements</a></li>
+                <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+            </div>
+    </nav>
+    <section id="profile">
+        <div class="section-pic-container">
+            <img class="pic-container" src="assets/profile.jpg" alt="profile picture">
+        </div>
+        <div class="section_text">
+            <p class="section__text__p1">
+                Hello, I'm
+            </p>
+            <hi class="title">Shanmitha</hi>
+            <p class="section__text__p2"> <span class="typing"></span></p>
+            <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+            <div class="btn-container">
+                <button class="btn btn-color-2" onclick="window.open('assets/Resume.pdf')">
+                    Download Resume
+                </button>
+
+                <button class="btn btn-color-1" onclick="location.href ='#contact'">
+                    Contact Info
+                </button>
+            </div>
+            <div id="social-container">
+                <img src="assets/linkedin.png" alt="My LinkedIn profile" class="icon"
+                    onClick="location.href = 'https://www.linkedin.com/in/shanmitha-balakrishnan-8b8a13249/'">
+
+                <img src="assets/github.png" alt="My Github profile" class="icon"
+                    onClick="location.href = 'https://github.com'">
+            </div>
+            <img src="assets/arrow.png" alt="Arrow icon" class="arrow" onclick="location.href= '/#about'">
+        </div>
+    </section>
+    <section id="about">
+        <p class="section__text__p1">
+            Get To Know More
+        </p>
+        <h1 class="title">About Me</h1>
+        <div class="section-container">
+            <div class="section-pic-container">
+                <img src="assets/shan2.jpg" alt="Profile Picture" class="about-pic">
+            </div>
+            <div class="about-details-container">
+                <div class="about-containers">
+                    <div class="details-container">
+                        <img src="assets/experience.png" alt="Experience-icon" class="icon">
+                        <h3>Experience</h3>
+                        <p>Budding developer</p>
+                        <p>5+ Projects</p>
+                    </div>
+                    <div class="details-container">
+                        <img src="assets/education.png" alt="Education-icon" class="icon">
+                        <h3>Education</h3>
+                        <p>B.Sc. Bachelors Degree in Computer Science</p>
+                    </div>
+                </div>
+            </div>
+            <img src="assets/arrow.png" alt="Arrow icon" class="arrow" onclick="location.href= '/#skills'">
+        </div>
+    </section>
+    <section id="skills">
+        <p class="section__text__p1">Explore My</p>
+        <h1 class="title">Skills</h1>
+        <div class="skills-details-container">
+            <div class="about-containers">
+                <div class="details-container">
+                    <h2 class="skills-sub-title">Front-end Development & Frameworks</h2>
+                    <div class="article-container">
+                        <article>
+                            <img src="assets/checkmark.png" alt="skills icon" class="icon">
+                            <div>
+                                <h3>HTML</h3>
+                                <P>Experienced</P>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="assets/checkmark.png" alt="skills icon" class="icon">
+                            <div>
+                                <h3>CSS</h3>
+                                <P>Experienced</P>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="assets/checkmark.png" alt="skills icon" class="icon">
+                            <div>
+                                <h3>JAVASCRIPT</h3>
+                                <P>Basic</P>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="assets/checkmark.png" alt="skills icon" class="icon">
+                            <div>
+                                <h3>BOOTSTRAP</h3>
+                                <P>Basic</P>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="assets/checkmark.png" alt="skills icon" class="icon">
+                            <div>
+                                <h3>REACT.JS</h3>
+                                <P>Basic</P>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="assets/checkmark.png" alt="skills icon" class="icon">
+                            <div>
+                                <h3>SASS</h3>
+                                <P>Intermediate</P>
+                            </div>
+                        </article>
+                        <!--<article>
+                            <img src="assets/checkmark.png" alt="skills icon" class="icon">
+                            <h3>.NET</h3>
+                            <P>Basic</P>
+                        </article>
+                        <article>
+                            <img src="assets/checkmark.png" alt="skills icon" class="icon">
+                            <h3>GIT</h3>
+                            <P>Basic</P>
+                        </article>
+                        <article>
+                            <img src="assets/checkmark.png" alt="skills icon" class="icon">
+                            <h3>VS CODE</h3>
+                            <P>Basic</P>
+                        </article>
+                        <article>
+                            <img src="assets/checkmark.png" alt="skills icon" class="icon">
+                            <h3>FIGMA</h3>
+                            <P>Basic</P>
+                        </article>-->
+                    </div>
+                </div>
+                <div class="details-container">
+                    <h2 class="skills-sub-title">Back-end Development & Others</h2>
+                    <div class="article-container">
+                        <article>
+                            <img src="assets/checkmark.png" alt="skills icon" class="icon">
+                            <div>
+                                <h3>PYTHON</h3>
+                                <P>Intermediate</P>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="assets/checkmark.png" alt="skills icon" class="icon">
+                            <div>
+                                <h3>C</h3>
+                                <P>Intermediate</P>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="assets/checkmark.png" alt="skills icon" class="icon">
+                            <div>
+                                <h3>PHP</h3>
+                                <P>Basic</P>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="assets/checkmark.png" alt="skills icon" class="icon">
+                            <div>
+                                <h3>DBMS</h3>
+                                <P>Basic</P>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="assets/checkmark.png" alt="skills icon" class="icon">
+                            <div>
+                                <h3>Data structure</h3>
+                                <P>Basic</P>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <img src="assets/arrow.png" alt="Arrow icon" class="arrow" onclick="location.href= './#projects'">
+    </section>
+    <section id="projects">
+        <p class="section__text__p1">Browse My Recent</p>
+        <h1 class="title">Projects</h1>
+        <div class="skills-details-container">
+            <div class="about-containers">
+                <div class="details-container color-container">
+                    <div class="article-container">
+                        <img src="assets/project-1.png" alt="Project 1" class="project-img" />
+                    </div>
+                    <h2 class="skills-sub-titlle project-title">
+                        Project One
+                    </h2>
+                    <div class="btn-container">
+                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com'">
+                            Github
+                        </button>
+                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com'">
+                            Live Demo
+                        </button>
+                    </div>
+                </div>
+                <div class="details-container color-container">
+                    <div class="article-container">
+                        <img src="assets/project-2.png" alt="Project 1" class="project-img" />
+                    </div>
+                    <h2 class="skills-sub-titlle project-title">
+                        Project Two
+                    </h2>
+                    <div class="btn-container">
+                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com'">
+                            Github
+                        </button>
+                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com'">
+                            Live Demo
+                        </button>
+                    </div>
+                </div>
+                <div class="details-container color-container">
+                    <div class="article-container">
+                        <img src="assets/project-3.png" alt="Project 1" class="project-img" />
+                    </div>
+                    <h2 class="skills-sub-titlle project-title">
+                        Project Three
+                    </h2>
+                    <div class="btn-container">
+                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com'">
+                            Github
+                        </button>
+                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com'">
+                            Live Demo
+                        </button>
+                    </div>
+                </div>
+                <img src="assets/arrow.png" alt="Arrow icon" class="arrow" onclick="location.href= '/#contact'">
+            </div>
+        </div>
+
+    </section>
+    </section>
+    <section id="contact">
+        <p class="section__text__p1">Get in Touch</p>
+        <h1 class="title">Contact Me</h1>
+        <div class="contact-info-upper-container">
+            <div class="contact-info-container">
+                <img src="./assets/email.png" alt="Email icon" class="icon contact-icon email-icon" />
+                <p><a href="mailto:Sanmithasree22@gmail.com">Sanmithasree22@gmail.com</a></p>
+            </div>
+            <div class="contact-info-container">
+                <img src="./assets/linkedin.png" alt="LinkedIn icon" class="icon contact-icon" />
+                <p><a href="https://www.linkedin.com/in/shanmitha-balakrishnan-8b8a13249/">LinkedIn</a></p>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <nav>
+            <div class="nav-links-container">
+                <ul class="nav-links">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+        <p>Copyright &#169; 2023 Shanmitha Balakrishnan. All Rights Reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
