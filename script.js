@@ -6,7 +6,7 @@ function toggleMenu() {
 }
 
 var loop = {
-    strings: ['Web Developer', 'Frontend developer', 'Web Designer', 'Python Developer'],
+    strings: ['Web engineer', 'Designer', 'Developer', 'Python Developer'],
     typeSpeed: 50,
     backSpeed: 100
 };
