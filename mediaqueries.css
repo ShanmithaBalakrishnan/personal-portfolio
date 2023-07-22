@@ -19,6 +19,10 @@
   #hamburger-nav {
     display: flex;
   }
+  section, 
+  .section-container {
+    height: fit-content;
+}
   #profile,
   .section-container {
     display: block;
@@ -52,9 +56,6 @@
   .pic-container {
     height: 300px;
     width: 300px;
-  }
-  .about-containers {
-    margin-top: 0;
   }
 }
 
