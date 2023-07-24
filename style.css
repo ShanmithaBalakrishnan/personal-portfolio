@@ -386,7 +386,7 @@ section{
 article {
   display: flex;
   width: 160px;
-  justify-content: space-around;
+  flex-wrap: wrap;
   gap: 8px;
 }
 
