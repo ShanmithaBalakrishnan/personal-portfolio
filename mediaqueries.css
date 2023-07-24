@@ -51,7 +51,6 @@
     flex-wrap: wrap;
     flex-direction: row;
     gap: 40px;
-    justify-content: space-around;
   }
   .pic-container {
     height: 300px;
