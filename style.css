@@ -18,7 +18,7 @@ html {
 }
 
 p {
-  color: rgb(85, 85, 85);
+  color: rgb(30, 29, 29);
 }
 
 /*TRANSITIONS*/
@@ -63,6 +63,10 @@ a {
 a:hover {
   color: rgb(75, 75, 75);
   text-decoration-color: rgb(75, 75, 75);
+}
+.nav-links li:hover {
+  transform: translateY(-1rem);
+  transition: ease 0.5s;
 }
 
 /*HAMBURGER MENU*/
@@ -148,7 +152,7 @@ a:hover {
 
 /*SECTIONS*/
 
-section{
+section {
   padding-top: 4vh;
   height: 96vh;
   margin: 0 160;
@@ -156,13 +160,13 @@ section{
   min-height: fit-content;
 }
 
-.section-container{
+.section-container {
   display: flex;
 }
 
 /* PROFILE SECTION */
 
-#profile{
+#profile {
   display: flex;
   justify-content: center;
   gap: 100px;
@@ -175,43 +179,43 @@ section{
   align-items: center;
 }
 
-.section-pic-container{
+.section-pic-container {
   display: flex;
   margin: auto 0;
 }
 
-.section_text{
+.section_text {
   align-self: center;
   text-align: center;
 }
 
-.section_text p{
+.section_text p {
   font-weight: 600;
 }
 
-.section__text__p1{
+.section__text__p1 {
   text-align: center;
 }
 
-.section__text__p{
+.section__text__p {
   text-align: center;
   font-size: 16px;
   margin-bottom: 16px;
 }
 
-.section__text__p2{
+.section__text__p2 {
   line-height: 50px;
   font-size: 20px;
 }
 
-.title{
+.title {
   font-size: 48px;
   text-align: center;
   font-weight: 600;
   font-family: "Dancing Script", cursive;
 }
 
-#social-container{
+#social-container {
   display: flex;
   justify-content: center;
   margin-top: 16px;
@@ -220,20 +224,20 @@ section{
 
 /* ICONS */
 
-.icon{
+.icon {
   cursor: pointer;
   height: 48px;
 }
 
 /* BUTTONS */
 
-.btn-container{
+.btn-container {
   display: flex;
   justify-content: center;
   gap: 16px;
 }
 
-.btn{
+.btn {
   font-weight: 600;
   transition: all 300ms ease;
   width: 150px;
@@ -241,42 +245,42 @@ section{
   border-radius: 50px;
 }
 
-.btn-color-1, 
-.btn-color-2{
-  border: rgb(53,53,53) 1.6px solid;
+.btn-color-1,
+.btn-color-2 {
+  border: rgb(29, 28, 28) 1.6px solid;
 }
 
-.btn-color-1:hover, 
-.btn-color-2:hover{
+.btn-color-1:hover,
+.btn-color-2:hover {
   cursor: pointer;
 }
 
-.btn-color-1, 
-.btn-color-2:hover{
+.btn-color-1,
+.btn-color-2:hover {
   cursor: pointer;
-  background: rgb(53,53,53);
+  background: rgb(53, 53, 53);
   color: white;
 }
 
-.btn-color-1:hover{
-  background: rgb(0,0,0);
+.btn-color-1:hover {
+  background: rgb(0, 0, 0);
 }
 
-.btn-color-2{
+.btn-color-2 {
   background: none;
 }
 
-.btn-color-2:hover{
-  border: rgb(255,255,255) 1.6px solid;
+.btn-color-2:hover {
+  border: rgb(255, 255, 255) 1.6px solid;
 }
 
-.btn-container{
+.btn-container {
   gap: 16px;
 }
 
 /* ABOUT SECTION */
 
-#about{
+#about {
   position: relative;
   padding: 20px;
   align-items: center;
@@ -287,43 +291,50 @@ section{
   margin-bottom: 32px;
   margin-top: 32px;
 }
-.about-containers, 
+
+.about-containers,
 .about-details-container {
   display: flex;
 }
 
-.about-details-container{
+.about-details-container
+.about-containers .details-container:hover{
+  transform: translateY(-1rem);
+  transition: ease 0.3s;
+}
+
+.about-details-container {
   justify-content: center;
   flex-direction: column;
 }
 
-.text-container{
+.text-container {
   display: block;
   text-align: center;
 }
 
-.text-container p{
+.text-container p {
   text-align: center;
 }
 
-.about-pic{
+.about-pic {
   margin-left: 50px;
   margin-bottom: 32px;
   border-radius: 50px;
 }
 
-.details-container{
+.details-container {
   padding: 24px;
   flex: 1;
   background: white;
   border-radius: 32px;
-  border: rgb(53, 53, 53) 1.6px solid;
+  border: rgb(18, 18, 18) 1.6px solid;
   border-color: rgb(163, 163, 163);
   text-align: center;
   justify-content: flex-start;
 }
 
-.arrow{
+.arrow {
   position: absolute;
   right: -5px;
   bottom: 10px;
@@ -331,24 +342,24 @@ section{
   width: 30px;
 }
 
-.details-container{
+.details-container {
   padding: 24px;
   flex: 1;
   background: white;
   border-radius: 32px;
-  border: rgb(53,53,53) 1.6px solid;
-  border-color: rgb(163,163,163);
+  border: rgb(24, 24, 24) 1.6px solid;
+  border-color: rgb(163, 163, 163);
   text-align: center;
 }
 
-.section-container{
+.section-container {
   gap: 64px;
   height: 80%;
   display: flex;
   justify-content: center;
 }
 
-.section-pic-container{
+.section-pic-container {
   height: 400px;
   width: 400px;
   margin: auto 0;
@@ -361,10 +372,10 @@ section{
 }
 
 .skills-sub-title {
-    color: rgb(85, 85, 85);
-    font-weight: 600;
-    font-size: 28px;
-    margin-bottom: 32px;
+  color: rgb(29, 29, 29);
+  font-weight: 600;
+  font-size: 28px;
+  margin-bottom: 32px;
 }
 
 .skills-details-container {
@@ -372,6 +383,11 @@ section{
   display: flex;
   justify-content: center;
   flex-direction: column;
+}
+.about-containers 
+.details-container:hover{
+  transform: translateY(-1rem);
+  transition: ease 0.5s;
 }
 
 .article-container {
@@ -410,6 +426,10 @@ article .icon {
   background: rgb(250, 250, 250);
 }
 
+.color-container:hover{
+  transform: translateY(-1rem);
+  transition: ease 0.3s;
+}
 .project-img {
   border-radius: 32px;
   width: 90%;
