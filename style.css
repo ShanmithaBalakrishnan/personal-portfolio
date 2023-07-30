@@ -11,6 +11,13 @@ body {
     font-family: "Dancing Script", cursive;
     font-family: "Lugrasimo", cursive;*/
   font-family: "poppins", sans-serif;
+  background-color: #f0f8ff;
+  background: linear-gradient(
+      rgba(240, 248, 255, 0.95),
+      rgba(240, 248, 255, 0.95)
+    ),
+    url(assets/background.svg);
+  background-position: 0 0, 50% 0;
 }
 
 html {
@@ -297,8 +304,7 @@ section {
   display: flex;
 }
 
-.about-details-container
-.about-containers .details-container:hover{
+.about-details-container .about-containers .details-container:hover {
   transform: translateY(-1rem);
   transition: ease 0.3s;
 }
@@ -384,8 +390,7 @@ section {
   justify-content: center;
   flex-direction: column;
 }
-.about-containers 
-.details-container:hover{
+.about-containers .details-container:hover {
   transform: translateY(-1rem);
   transition: ease 0.5s;
 }
@@ -426,7 +431,7 @@ article .icon {
   background: rgb(250, 250, 250);
 }
 
-.color-container:hover{
+.color-container:hover {
   transform: translateY(-1rem);
   transition: ease 0.3s;
 }
