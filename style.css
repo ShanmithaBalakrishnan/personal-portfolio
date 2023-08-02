@@ -390,10 +390,7 @@ section {
   justify-content: center;
   flex-direction: column;
 }
-.about-containers .details-container:hover {
-  transform: translateY(-1rem);
-  transition: ease 0.5s;
-}
+
 
 .article-container {
   display: flex;
@@ -409,6 +406,11 @@ article {
   width: 160px;
   flex-wrap: wrap;
   gap: 8px;
+}
+
+article:hover {
+  transform: translateY(-1rem);
+  transition: ease 0.5s;
 }
 
 .icon {
